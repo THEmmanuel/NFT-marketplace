@@ -4,13 +4,15 @@ import NFTs from './containers/NFTs/NFTs';
 import SidePanel from './containers/SidePanel/SidePanel';
 
 function App() {
-  return (
-    <div className="App">
-		<SidePanel/>
-		<NavBar/>
-		<NFTs/>
-    </div>
-  );
+	return (
+		<div className="App">
+			<SidePanel />
+			<section>
+				<NavBar />
+				<NFTs />
+			</section>
+		</div>
+	);
 }
 
 export default App;
