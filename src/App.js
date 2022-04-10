@@ -7,7 +7,7 @@ function App() {
 	return (
 		<div className="App">
 			<SidePanel />
-			<section>
+			<section className="ContentContainer">
 				<NavBar />
 				<NFTs />
 			</section>
