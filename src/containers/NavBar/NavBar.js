@@ -2,9 +2,9 @@ import style from './NavBar.module.css'
 
 const NavBar = () => {
 	return (
-		<div className={style.NavBar}>
+		<nav className={style.NavBar}>
 			navbar
-		</div>
+		</nav>
 	)
 }
 
