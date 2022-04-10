@@ -1,9 +1,24 @@
 import style from './SidePanel.module.css';
+import {
+	Logo,
+	HomeIcon,
+	ExploreIcon,
+	CartIcon,
+	UserIcon,
+	WalletIcon
+} from '../../icons';
 
 const SidePanel = () => {
 	return (
 		<section className={style.SidePanel}>
-			SidePanel
+			<div className={style.SidePanelIcons}>
+				<Logo />
+				<HomeIcon />
+				<ExploreIcon />
+				<CartIcon />
+				<UserIcon />
+				<WalletIcon />
+			</div>
 		</section>
 	)
 }

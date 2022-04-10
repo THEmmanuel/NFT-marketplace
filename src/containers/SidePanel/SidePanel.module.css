@@ -1,5 +1,14 @@
 .SidePanel{
-	background-color: darkblue;
-	width: 100px;
+	background-color: #19212E;
+	width: 5%;
+	max-width: 120px;
 	height: 100vh;
+}
+
+.SidePanelIcons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 25px;
+	gap: 60px;
 }
