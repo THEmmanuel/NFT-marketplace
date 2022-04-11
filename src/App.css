@@ -1,9 +1,28 @@
 .App {
-  display: flex;
-  flex-direction: row;
-  background-color: #1E2733;
+	display: flex;
+	flex-direction: row;
+	background-color: #1E2733;
 }
 
 .ContentContainer {
 	width: 100%;
+}
+
+.SectionHeadingContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	color: #FFF;
+}
+
+.SectionHeading {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.ItemCount {
+	font-weight: 200;
+	opacity: 0.25;
 }

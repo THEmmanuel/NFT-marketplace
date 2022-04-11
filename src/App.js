@@ -11,6 +11,10 @@ function App() {
 			<section className="ContentContainer">
 				<NavBar />
 				<Banner />
+				<div className='SectionHeadingContainer'>
+					<span className='SectionHeading'>All NFTs</span>
+					<span className='ItemCount'>8 items</span>
+				</div>
 				<NFTs />
 			</section>
 		</div>
