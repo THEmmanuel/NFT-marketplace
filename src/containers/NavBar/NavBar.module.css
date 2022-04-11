@@ -2,5 +2,48 @@
 	background-color: transparent;
 	width: 100%;
 	display: flex;
+	margin: 15px 0 15px 0;
+}
+
+.NavContainer{
+	display: flex;
 	flex-direction: row;
+	margin: auto;
+	justify-content: center;
+	gap: 350px;
+}
+
+.NavSearch{
+	background-color: #303847;
+	border-radius: 8px;
+	max-width: 600px;
+	width: 550px;
+	height: 40px;
+	border: none;
+	font-size: 1rem;
+	color: #CBCDD1;
+	padding: 20px;
+}
+
+.NavLinksContainer{
+	display: flex;
+	flex-direction: row;
+	gap: 45px;
+	align-items: center;
+}
+
+.NavLink{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 1rem;
+}
+
+.ConnectWalletBtn{
+	width: 150px;
+	height: 40px;
+	border-radius: 8px;
+	color: #FFF;
+	border: none;
+	background-color: #02548B;
+	font-size: 1rem;
 }
