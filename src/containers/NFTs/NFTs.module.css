@@ -1,3 +1,6 @@
 .NFTs {
-	
+	max-width: 1500px;
+	display: grid;
+	margin: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
