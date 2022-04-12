@@ -2,4 +2,11 @@
 	width: 260px;
 	height: 280px;
 	background-color: brown;
+	margin: 40px auto;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, 0.24);
+	border-radius: 8px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.8px);
+	-webkit-backdrop-filter: blur(7.8px);
 }

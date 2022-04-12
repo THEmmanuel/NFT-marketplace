@@ -1,19 +1,23 @@
 import React from "react";
 import style from './NFTCard.module.css'
 
-const NFTCard = () => {
+const NFTCard = props => {
 	return (
 		<div className={style.NFTCard}>
-			<img src="" alt="NFT" />
+			<img
+				src={props.imageLink}
+				alt="NFT"
+				className={style.NFTImage}
+			/>
 			<div>
 				<div>
-					<span>NFT creator</span>
-					<span>NFT Name</span>
+					<span>{props.creator}</span>
+					<span>{props.name}</span>
 				</div>
 
 				<div>
 					<span>Current Price</span>
-					<span>NFT price</span>
+					<span>{props.price}</span>
 				</div>
 			</div>
 		</div>
